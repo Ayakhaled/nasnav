@@ -1,0 +1,69 @@
+.analytics-sec {
+  width: 50%;
+  height: 400px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg {
+  width: 100%;
+}
+
+.blue-btn {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "ProximaNova";
+  background: #0079fc;
+  color: white;
+  line-height: 1.632;
+  z-index: 34;    
+  border-radius: 60px;
+  padding: 7px 30px;
+  border: 0;
+  height: 50px;
+  cursor: pointer;
+}
+
+.content {
+  position: absolute;
+
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  top: 0;
+  bottom: 0;
+  img {
+    width: 200px;
+  }
+  p {
+    text-align: center;
+    font-size: 19px;
+    color: #6c6c6c;
+    margin: 25px 0;
+  }
+}
+
+.right {
+  top: -50px;
+  right: -190px;
+  position: absolute;
+  width: 260px;
+  position: absolute;
+}
+
+.left {
+  top: -50px;
+  left: -190px;
+  position: absolute;
+  width: 260px;
+  position: absolute;
+}

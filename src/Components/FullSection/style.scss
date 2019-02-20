@@ -1,0 +1,116 @@
+.message {
+  width: 38%;
+  p, h1 {
+    margin: 12px 0;
+  }
+  p {
+    color: #757575;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  h1 {
+    color: #484848;
+    font-weight: 100;
+    font-size: 38px;
+    span {
+      font-weight: 500;
+    }
+  }
+}
+
+/**
+  =================================================================
+*/
+.styleSec-wrapper {
+  width: 100%;
+  position: relative;
+}
+.styleSec {
+  width: 80%;
+  margin: 90px auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  &__img {
+    height: 160%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.analytics {
+  margin: 250px auto;
+  &__img {
+    height: 110%;
+  }
+}
+
+.btn-list {
+  display: flex;
+}
+
+.gr-btn {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "ProximaNova";
+  background: #00d068;
+  color: white;
+  line-height: 1.632;
+  z-index: 34;    
+  border-radius: 60px;
+  padding: 7px 30px;
+  border: 0;
+  height: 50px;
+  margin-left: 10px;
+}
+
+
+/**
+  =================================================================
+*/
+
+
+.image360 {
+  display: flex;
+  margin-top: 390px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  .btn-list {
+    justify-content: center;
+    margin-top: 20px;
+    .gr-btn {
+      margin: 0;
+    }
+    .blue-btn {
+      margin-left: 10px;
+    }
+  }
+  img {
+    width: 30%;
+    height: 100%;
+  }
+}
+
+/**
+  =================================================================
+*/
+
+.right-img {
+  justify-content: flex-start;
+  &__img {
+    right: 0;
+    left: auto;
+    top: -100px;
+  }
+}
+
+
+/**
+  =================================================================
+*/
+
+.analytics-img {
+  height: 120%;
+}
